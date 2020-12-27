@@ -85,7 +85,7 @@ tile.nuclearcraft.assembler.desc=Assemble des composants pour former un produit.
 tile.nuclearcraft.ingot_former.name=Moule à lingots
 tile.nuclearcraft.ingot_former.desc=Modèle le métal fondu en lingot et gemmes.
 
-tile.nuclearcraft.pressurizer.name=Pressuriseur
+tile.nuclearcraft.pressurizer.name=Compresseur
 tile.nuclearcraft.pressurizer.desc=Soumet les objets à une pression immense.
 
 tile.nuclearcraft.chemical_reactor.name=Réacteur chimique
@@ -106,7 +106,7 @@ tile.nuclearcraft.extractor.desc=Extrait les fluides à partir des matériaux.
 tile.nuclearcraft.centrifuge.name=Centrifugeuse
 tile.nuclearcraft.centrifuge.desc=Sépare les isotopes contenus dans les fluides.
 
-tile.nuclearcraft.rock_crusher.name=Pulverisateur de rochers
+tile.nuclearcraft.rock_crusher.name=Pulvérisateur de rochers
 tile.nuclearcraft.rock_crusher.desc=Pulvérise les rochers pour produire de la poussière de minéraux.
 
 tile.nuclearcraft.machine_interface.name=Interface de machine
@@ -158,7 +158,7 @@ info.nuclearcraft.fission_source.efficiency.fixd=Multiplicateur d'efficacité: %
 tile.nuclearcraft.fission_shield.boron_silver.name=Bouclier à neutrons bore-argent
 
 info.nuclearcraft.fission_shield.heat_per_flux.fixd=Génération de chaleur par flux: %s
-info.nuclearcraft.fission_shield.efficiency.fixd=Multiplicateur d'éfficacité: %s
+info.nuclearcraft.fission_shield.efficiency.fixd=Multiplicateur d'efficacité: %s
 
 tile.nuclearcraft.fission_redstone_port.name=Prise de redstone du réacteur à fission
 tile.nuclearcraft.fission_computer_port.name=Prise d'ordinateur du réacteur à fission
@@ -281,25 +281,25 @@ tile.nuclearcraft.salt_fission_heater2.cryotheum.name=Refroidisseur à cryothéu
 
 tile.nuclearcraft.salt_fission_heater.cooling_rate=Vitesse de refroidissement
 
-tile.nuclearcraft.heat_exchanger_controller.name=(WIP)
-tile.nuclearcraft.heat_exchanger_casing.name=(WIP)
-tile.nuclearcraft.heat_exchanger_glass.name=(WIP)
-tile.nuclearcraft.heat_exchanger_vent.name=(WIP)
-tile.nuclearcraft.heat_exchanger_vent.desc=(WIP)
-tile.nuclearcraft.heat_exchanger_tube_copper.name=(WIP)
-tile.nuclearcraft.heat_exchanger_tube_hard_carbon.name=(WIP)
-tile.nuclearcraft.heat_exchanger_tube_thermoconducting.name=(WIP)
-tile.nuclearcraft.heat_exchanger_tube.fixd=(WIP)
-tile.nuclearcraft.heat_exchanger_tube.desc=(WIP)
-tile.nuclearcraft.heat_exchanger_computer_port.name=(WIP)
-tile.nuclearcraft.heat_exchanger_computer_port.desc=(WIP)
+tile.nuclearcraft.heat_exchanger_controller.name=Contrôleur d'échangeur thermique(WIP)
+tile.nuclearcraft.heat_exchanger_casing.name=Corp d'échangeur thermique(WIP)
+tile.nuclearcraft.heat_exchanger_glass.name=Vitre d'échangeur thermique(WIP)
+tile.nuclearcraft.heat_exchanger_vent.name=Ventilateur d'échangeur thermique(WIP)
+tile.nuclearcraft.heat_exchanger_vent.desc=Ventilateur de l'échangeur thermique(WIP)
+tile.nuclearcraft.heat_exchanger_tube_copper.name=Tube de cuivre(WIP)
+tile.nuclearcraft.heat_exchanger_tube_hard_carbon.name=Tube de carbone dur(WIP)
+tile.nuclearcraft.heat_exchanger_tube_thermoconducting.name=Tube thermoconducteur(WIP)
+tile.nuclearcraft.heat_exchanger_tube.fixd=Tube(WIP)
+tile.nuclearcraft.heat_exchanger_tube.desc=Tube permettant l'échange thermique entre deux fluides(WIP)
+tile.nuclearcraft.heat_exchanger_computer_port.name=Port informatique(WIP)
+tile.nuclearcraft.heat_exchanger_computer_port.desc=Port permettant de connecter un ordinateur(WIP)
 
-tile.nuclearcraft.condenser_controller.name=(WIP)
-tile.nuclearcraft.condenser_tube_copper.name=(WIP)
-tile.nuclearcraft.condenser_tube_hard_carbon.name=(WIP)
-tile.nuclearcraft.condenser_tube_thermoconducting.name=(WIP)
-tile.nuclearcraft.condenser_tube.fixd=(WIP)
-tile.nuclearcraft.condenser_tube.desc=(WIP)
+tile.nuclearcraft.condenser_controller.name=Contrôleur du condenseur(WIP)
+tile.nuclearcraft.condenser_tube_copper.name=Tube de cuivre(WIP)
+tile.nuclearcraft.condenser_tube_hard_carbon.name=Tube de carbone dur(WIP)
+tile.nuclearcraft.condenser_tube_thermoconducting.name=Tube thermoconducteur(WIP)
+tile.nuclearcraft.condenser_tube.fixd=Tube(WIP)
+tile.nuclearcraft.condenser_tube.desc=Tube permettant l'échange thermique entre deux fluides(WIP)
 
 tile.nuclearcraft.turbine_controller.name=Contrôleur de turbine
 tile.nuclearcraft.turbine_controller.desc=Le coeur de la turbine - il est nécessaire d'en placer un dans le mur pour former une turbine
@@ -485,7 +485,7 @@ tile.nuclearcraft.fluid_cryotheum.name=Cryothéum fondu
 fluid.cryotheum=Cryothéum fondu
 
 tile.nuclearcraft.fluid_plasma.name=Plasma
-tile.nuclearcraft.fluid_plasma.desc=Produit dans les réacteurs à fusion actifs. Peut causer une explosion et du feu si'il rentre en contact avec un électroaimant non alimenté.
+tile.nuclearcraft.fluid_plasma.desc=Produit dans les réacteurs à fusion actifs, il peut causer une explosion et du feu si il rentre en contact avec un électroaimant non alimenté.
 fluid.plasma=Plasma
 
 tile.nuclearcraft.fluid_lithium_6.name=Lithium 6 fondu
@@ -588,7 +588,7 @@ tile.nuclearcraft.fluid_oxygen_difluoride.name=Difluorure d'oxygène
 fluid.oxygen_difluoride=Difluorure d'oxygène
 
 tile.nuclearcraft.fluid_corium.name=Corium
-tile.nuclearcraft.fluid_corium.desc=Une mixture toxique de combustible et de composants fondus. Est produite lors d'une défaillance d'un réacteur.
+tile.nuclearcraft.fluid_corium.desc=Une mixture toxique de combustible et de composants fondus. Elle est produite lors d'une défaillance d'un réacteur.
 fluid.corium=Corium
 
 tile.nuclearcraft.fluid_ice.name=Glace pilée
